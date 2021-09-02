@@ -55,3 +55,7 @@ def results():
     #     error_count=verification_results.get('report', {}).get('errorCount'),
     #     results=json.dumps(verification_results, indent=4))
 
+
+
+if(__name__ == "__main__"):
+    app.run(host='0.0.0.0', port=5000)
